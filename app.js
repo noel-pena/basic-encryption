@@ -5,6 +5,7 @@ import { error } from "console";
 import bcrypt from 'bcrypt';
 // import md5 from 'md5'; if it was just hashing
 
+const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const app = express();
 const port = 3000;
 const saltRounds = 10;
