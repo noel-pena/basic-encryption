@@ -1,4 +1,4 @@
-import express from "express";
+kimport express from "express";
 import bodyParser from "body-parser";
 import pg from "pg";
 import { error } from "console";
@@ -18,7 +18,7 @@ const db = new pg.Client({
     port: 5432,
 });
 
-console.log("test")
+console.log("console")
 
 db.connect();
 
